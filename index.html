@@ -13,17 +13,17 @@
   <title>Portafolio</title>
 </head>
 <body class="bg-dark">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient mb-3">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient fixed-top">
     <div class="container-fluid">
-      <img src="assets/img/Free_Sample_By_Wix.jpeg" alt="logotipo de solo letras que dice Moises Valdebenito">
+      <img src="assets/img/Free_Sample_By_Wix.jpeg" height="80px" alt="logotipo de solo letras que dice Moises Valdebenito">
       <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="text-white nav-link active" aria-current="page" href="">Portafolio</a>
-          <a class="text-white nav-link" href="#">Mis Forks</a>
+          <a class="text-white nav-link active" aria-current="page" href="#carouselExampleFade">Portafolio</a>
+          <a class="text-white nav-link" href="#forks">Mis Forks</a>
           <a class="text-white nav-link" href="#">Contacto</a>
         </div>
       </div>
@@ -66,11 +66,13 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <div class="container bg-dark">
+  <div id="forks" class="container bg-dark">
     <div class="row text-center ">
       <div class="col mt-3">
         <div class="card" style="width: 18rem;">
-          <img src="assets/img/Fork1.png" class="card-img-top" alt="...">
+          <a href="https://github.com/lemunao/lemunao.github.io" target="_blank">
+            <img src="assets/img/Fork1.png" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h5 class="card-title">Fork al compañero Pedro</h5>
             <a href="https://github.com/lemunao/lemunao.github.io" class="btn btn-primary" target="_blank">Repositorio Pedro</a>
@@ -79,7 +81,9 @@
       </div>
       <div class="col mt-3">
         <div class="card" style="width: 18rem;">
-          <img src="assets/img/Fork2.png" class="card-img-top" alt="...">
+          <a href="https://github.com/VictorGonzalezGomez/portafolio" target="_blank">
+            <img src="assets/img/Fork2.png" class="card-img-top" alt="...">
+          </a>
           <div class="card-body">
             <h5 class="card-title">Fork al compañero Victor</h5>
             <a href="https://github.com/VictorGonzalezGomez/portafolio" class="btn btn-primary" target="_blank">Repositorio Victor</a>
